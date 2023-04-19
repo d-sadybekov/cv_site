@@ -9,7 +9,6 @@
 body {
   padding: 0;
   margin: 0;
-  background: gradient(90deg, #f1c5a0, #e7a472, #b14e23);
   background: linear-gradient(90deg, #f1c5a0, #e7a472, #b14e23);
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -95,8 +94,7 @@ body {
   background: #312e2b;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  grid-row-gap: 40px;
-  grid-column-gap: 20px;
+  grid-gap: 40px 20px;
   align-items: center;
   padding: 20px 40px;
 }
@@ -115,7 +113,7 @@ body {
   align-items: center;
 }
 
-.contact_me {
+.contact-me {
   text-align: center;
   font-size: 25px;
   color: white;
@@ -134,7 +132,7 @@ body {
   padding: 10px 0;
 }
 
-.my_links {
+.my-links {
   font-size: 60px;
 }
 
@@ -144,17 +142,17 @@ svg {
   fill: white;
 }
 
-.one_icon {
+.one-icon {
   display: inline-block;
   transition: color 0.3s;
   margin-right: 30px;
 }
 
-.one_icon:hover > svg {
+.one-icon:hover > svg {
   fill: #dd04fd;
 }
 
-.one_icon:not(:last-child) {
+.one-icon:not(:last-child) {
   margin-right: 30;
 }
 
