@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   padding: 0;
   margin: 0;
@@ -17,6 +18,7 @@ body {
   font-weight: 400;
   /* overflow: hidden; */
 }
+
 body::after {
   top: 0;
   bottom: 0;
@@ -33,12 +35,14 @@ body::after {
   margin: 0 auto;
   gap: 25px;
 }
+
 .header-wrapper {
   background: #312e2b;
   max-width: 1200px;
   margin: 0 auto;
   /* border-radius: 10px; */
 }
+
 .header-inner {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -47,6 +51,7 @@ body::after {
   align-items: center;
   padding: 40px 40px;
 }
+
 .foto-wrapper {
   display: flex;
   justify-content: center;
@@ -57,25 +62,28 @@ body::after {
   height: 420px;
   width: 100%;
 }
+
 .foto img {
   width: 100%;
   height: 100%;
   border-radius: 100%;
   object-fit: cover;
 }
-.content-wrapper {}
+
 .content {
   display: inline-block;
   color: white;
   width: 100%;
   text-align: center;
 }
+
 .content h1 {
   margin: 0;
   margin-bottom: 25px;
   font-size: 50px;
   transition: all 0.3s ease-out;
 }
+
 .content h2 {
   margin: 0;
   font-size: 20px;
@@ -86,6 +94,7 @@ body::after {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .section-inner {
   background: #312e2b;
   display: grid;
@@ -96,6 +105,7 @@ body::after {
   padding: 20px 40px;
   /* border-radius: 10px; */
 }
+
 .left-wrapper {
     display: flex;
     justify-content: center;
@@ -109,42 +119,51 @@ body::after {
   justify-content: center;
   align-items: center;
 }
+
 .contact_me {
   text-align: center;
   font-size: 25px;
   color: white;
 }
+
 .right-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .right {
   display: inline-block;
   text-align : center;
   width: 100%;
   padding: 10px 0;
 }
+
 .my_links {
   font-size: 60px;
   
 }
+
 svg {
   width: 48px;
   height: 48px;
   fill: white;
 }
+
 .one_icon {
   display: inline-block;
   transition: color 0.3s;
   margin-right: 30px;
 }
+
 .one_icon:hover > svg {
   fill: #dd04fd;
  }
+
 .one_icon:last-child {
   margin-right: 0;
 }
+
 .footer {
   background: #312e2b;
   padding: 50px 40px;
@@ -161,13 +180,16 @@ svg {
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
     padding: 5px;
   }
+
   .content h1 {
     font-size: 30px;
   }
+
   .foto {
     max-width: 320px;
     height: 320px;
   }
+
   .section-inner {
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
     padding: 5px;
@@ -176,7 +198,6 @@ svg {
   .left {
     max-width: 320px;
   }
-  
 }
 
 @media screen and (min-width: 600px) {}
@@ -185,9 +206,11 @@ svg {
     .header-wrapper {
         border-radius: 10px;
       }
+
       .section-inner {
         border-radius: 10px;
       }
+
       .footer {
         border-radius: 10px;
       }
